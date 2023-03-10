@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContosoUniversity.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    [Migration("20230310194909_ComplexDataModel")]
-    partial class ComplexDataModel
+    [Migration("20230310203322_ComplexData")]
+    partial class ComplexData
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
